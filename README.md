@@ -1,3 +1,3 @@
 # colour-flipper
 
-A small app that changes the background colour when a button it pressed.
+An app that changes the background colour randomly when a button it pressed and displays the hexadecimal colour code.
