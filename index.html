@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="background">
   <head>
     <!-- css import -->
     <link rel="stylesheet" type="text/css" href="changerStyle.css" />
@@ -11,8 +11,12 @@
     <title>Background colour changer!</title>
   </head>
   <body>
-    <div id="colourCode" class="colourCodeStyle">Pick a colour!</div>
-    <button id="changeButton" class="changeButtonStyle">Random Colour</button>
-    <script src="changerScript.js"></script>
+    <div id="backgroundColour" class="background">
+      <div id="colourCode" class="colourCodeStyle colourFeedback">
+        Pick a colour!
+      </div>
+      <button id="changeButton" class="changeButtonStyle">Random Colour</button>
+      <script src="changerScript.js"></script>
+    </div>
   </body>
 </html>
