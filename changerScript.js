@@ -13,9 +13,6 @@ function changeColour() {
   for (let i = 0; i < 6; i++) {
     // concatenate a random character stored in hexCode to colour variable
     colour += hexCode[Math.floor(Math.random() * 16)];
-
-    // debug
-    console.log(colour);
   }
 
   // Sets element with backgroundColour ID to the hex variable held in colour
